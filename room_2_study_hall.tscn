@@ -1,0 +1,18 @@
+[gd_scene load_steps=2 format=3 uid="uid://dr3uqa7i0qx0y"]
+
+[ext_resource type="PackedScene" uid="uid://gwsauotovjfk" path="res://asssets/ldtk/ldtk_project/Room2-Study hall.ldtk" id="1_d0xji"]
+
+[node name="Room2-Study hall" instance=ExtResource("1_d0xji")]
+texture_filter = 1
+
+[node name="LivingRoom" parent="." index="1"]
+texture_filter = 1
+
+[node name="Kitchen" parent="." index="2"]
+texture_filter = 1
+
+[node name="DiningArea" parent="." index="3"]
+texture_filter = 1
+
+[node name="Entrance" parent="." index="4"]
+texture_filter = 1
